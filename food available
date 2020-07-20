@@ -1,0 +1,32 @@
+#include<stdio.h>
+main()
+{
+printf(" chose a number b/w 1 to 5: ");
+int a=0;
+scanf("%d",&a);
+switch(a)
+{
+case 1:
+printf("Alfredo Pasta\n");
+printf("price:250Rs");
+break;
+case 2:
+printf("french fries\n");
+printf("price:80Rs");
+break;
+case 3:
+printf("apple pie\n");
+printf("price:280Rs");
+break;
+case 4:
+printf("broast\n");
+printf("price:300Rs");
+break;
+case 5:
+printf("Shawarma\n");
+printf("price:90Rs");
+break;
+default: printf("invalid");
+}
+return 0;
+}
